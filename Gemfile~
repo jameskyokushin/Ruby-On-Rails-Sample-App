@@ -6,6 +6,7 @@ gem 'bootstrap-sass', '2.0.0'
 group :development do
   gem 'sqlite3', '1.3.5'
   gem 'rspec-rails', '2.8.1'
+  gem 'annotate', '~> 2.4.1.beta'
   gem 'guard-rspec', '0.5.5'
 end 
 
