@@ -35,7 +35,7 @@ class UsersController < ApplicationController
     @user = User.new(params[:user])
     if @user.save
       sign_in @user
-      flash[:success] = "Welcome To ASI.COM.PH"
+      flash[:success] = "Your are now Successfully Sign in please change your gravatar."
       redirect_to @user
     else
       render 'new'

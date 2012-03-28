@@ -1,5 +1,9 @@
 <% provide(:title, 'Help') %>
 <h1>Help</h1>
 <p>
-  any comment and suggestion please email me at james_at_asi_dot_com_ph
+  any comment and suggestion please email me at <a>james_at_asi_dot_com_ph</a>
 </p>
+
+<p>How to Change image</p>
+  <ul>
+    <li>go to <a href="http://en.gravatar.com/" class="current">gravatar site</a></li>
